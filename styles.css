@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.square-div {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    flex: 1 1 auto;
+}
